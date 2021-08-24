@@ -26,7 +26,8 @@ function yoshHisoblagich() {
             ) {
                 alert(`Siz hali tug'ilmagansiz`);
             document.getElementById("nameOutput").style.opacity = '0';
-                return
+            document.getElementById("nameOutput").innerHtml = '';
+                return;
             }
 
         birtYear = hozirgiYil - year;
