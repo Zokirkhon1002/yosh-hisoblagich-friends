@@ -25,7 +25,6 @@ function yoshHisoblagich() {
             (date > hozirgiSana && month == hozirgiOy && year == hozirgiYil)
             ) {
                 alert(`Siz hali tug'ilmagansiz`);
-                displayResult("-","-","-"); // natijani shu funksiya orqali chiqaramiz
                 return
             }
 
