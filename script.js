@@ -8,7 +8,7 @@ function yoshHisoblagich() {
         birtYear,
         birthDetails = {
             date: inputDate.getDate(),
-            month: inputDate.getMonth(),
+            month: inputDate.getMonth()+1,
             year: inputDate.getFullYear()
         };
 
