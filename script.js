@@ -101,8 +101,14 @@ function displayResult(bDate, bMonth, bYear){
     if(inputName.toLowerCase().includes('khasan' || 'hasan' || 'xasan')){
         inputName = `XasanShi`;
     }
-    if(inputName.toLowerCase().includes('nurmuhammad' || 'nurmukhammad' || 'umarov')){
-        inputName = `Qori Aka`;
+    if(inputName.toLowerCase().includes('nurmuhammad' || 'nurmukhammad' || 'nurmuxammad')){
+       let check = window.confirm(`familyangiz Umarov mi?`);
+       if(check){
+           inputName = 'Qori Aka';
+       }
+       else {
+        inputName = 'Rustamov Nurmuhammadshi';
+       }
     }
 
 
