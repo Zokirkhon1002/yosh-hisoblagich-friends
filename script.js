@@ -59,8 +59,14 @@ function yoshHisoblagich() {
 function displayResult(bDate, bMonth, bYear){
 
     let inputName = document.querySelector(".js").value;
+    let inputDate = new Date(document.getElementById("date-input").value);
     if(inputName.length == 0){
         alert(`Ismingizni kiritmadingiz`);
+        return;
+    }
+    console.log(inputDate);
+    if(inputDate == 'Invalid Date'){
+        alert(`Tug'ilgan sanangizni kiritmadingiz`);
         return;
     }
     if(inputName.toLowerCase().includes('jobir' || 'jo1' || `Жобир`)){
