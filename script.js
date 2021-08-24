@@ -25,6 +25,7 @@ function yoshHisoblagich() {
             (date > hozirgiSana && month == hozirgiOy && year == hozirgiYil)
             ) {
                 alert(`Siz hali tug'ilmagansiz`);
+            document.getElementById("nameOutput").style.opacity = '0';
                 return
             }
 
